@@ -1,0 +1,106 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background: url('https://wallpaperaccess.com/full/537839.jpg')
+}
+
+footer {
+    margin-top: auto;
+    background: #e0e0e0;
+    text-align: center;
+    padding: 1em 0;
+}
+
+header {
+    background: #0077cc;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav {
+    background: #333;
+    color: white;
+    padding: 5px 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+  margin-top: auto;
+  background: #e0e0e0;
+  text-align: center;
+  margin-bottom: auto;
+}
+
+section {
+    flex: 1;
+    padding: 20px;
+    text-align: center;
+    color: whitesmoke;
+    font-weight: bold;
+    
+
+}
+
+
+
+.carousel {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+  margin: 2em auto;
+  text-align: center;
+  right: 300px;
+}
+.carousel-image {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: none;
+  background: url('https://wallpaperaccess.com/full/537839.jpg');
+}
+.carousel-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: orange;
+  color: #fff;
+  border: none;
+  padding: 6em 10em;
+  cursor: pointer;
+  font-size: 0.3em;
+  opacity: 10.9;
+}
+.carousel-btn:first-of-type {
+  left: 10px;
+}
+.carousel-btn:last-of-type {
+  right: 10px;
+}

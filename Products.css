@@ -1,0 +1,61 @@
+html, body {
+    height: 100%;
+    margin: 20px;
+    padding: 0;
+    text-align: center;
+}
+
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    background: url(https://png.pngtree.com/thumb_back/fh260/background/20240704/pngtree-sports-fishing-background-image_15859666.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+a[href="index.html"] {
+  display: block;
+  text-align: left;
+  margin-left: 1em;
+  margin-top: 1em;
+}
+
+nav ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 200px;
+    color: white;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2em;
+  justify-content: center;
+  margin-top: 2em;
+}
+.product-card {
+  background: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #ccc;
+  padding: 1em;
+  width: 220px;
+  text-align: left;
+  left: 50%;
+  transform: translateX(0%);
+}
+
+li, li a{
+    color: white;
+} 
