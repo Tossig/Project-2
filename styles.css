@@ -10,7 +10,10 @@ body {
     display: flex;
     flex-direction: column;
     font-family: Arial, sans-serif;
-    background: url('https://wallpaperaccess.com/full/537839.jpg')
+    background: url('https://wallpaperaccess.com/full/537839.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
 }
 
 footer {
@@ -38,9 +41,10 @@ nav ul {
     padding: 0;
 }
 
-nav ul li {
+nav ul, li {
     display: inline;
     margin-right: 20px;
+    list-style: none;
 }
 
 nav ul li a {
@@ -90,10 +94,10 @@ section {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: orange;
+  background: darkgray;
   color: #fff;
   border: none;
-  padding: 6em 10em;
+  padding: 3em 8em;
   cursor: pointer;
   font-size: 0.3em;
   opacity: 10.9;
@@ -104,3 +108,4 @@ section {
 .carousel-btn:last-of-type {
   right: 10px;
 }
+
