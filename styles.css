@@ -74,7 +74,6 @@ section {
 }
 
 
-
 .carousel {
   position: relative;
   width: 100%;
@@ -82,6 +81,7 @@ section {
   margin: 2em auto;
   text-align: center;
   right: 300px;
+  
 }
 .carousel-image {
   width: 100%;
@@ -89,6 +89,8 @@ section {
   height: auto;
   display: none;
   background: url('https://wallpaperaccess.com/full/537839.jpg');
+  border: 10px solid black
+
 }
 .carousel-btn {
   position: absolute;
@@ -101,6 +103,7 @@ section {
   cursor: pointer;
   font-size: 0.3em;
   opacity: 10.9;
+  border: 2px solid black
 }
 .carousel-btn:first-of-type {
   left: 10px;
